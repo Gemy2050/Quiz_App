@@ -15,7 +15,7 @@ let countdownInterval;
 
 function getQuestions() {
   let myRequest = new XMLHttpRequest();
-  myRequest.open("GET", "/html_querstion.json");
+  myRequest.open("GET", "https://api.jsonserve.com/LXOXW4");
   myRequest.send();
 
   myRequest.onload = function () {
